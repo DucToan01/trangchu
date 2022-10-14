@@ -3,25 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    
 
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 .container{
     background-color: bisque;
-    
-}
-.wrap{
     text-align: center;
     position: relative;
+    
+    
 }
+
 .background{
     position: relative;
     width: 50%;
     
     
 }
-.wrap p{
+
+/* .wrap p{
     writing-mode: vertical-lr;
     text-orientation: upright;
     color: white;
@@ -39,4 +42,4 @@ body{
 .wrap .exhibition{
     top: 45%;
     left:27.5%;
-}
+} */
