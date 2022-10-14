@@ -1,14 +1,13 @@
 @media (max-width: 740px){
     .background{
-    height: 100%;
-     width: 100%;
+        position: relative;
+        width: 100%;
+        height: auto;
+        
+    }
+    body{
+        height: 1000px;
     }
    
  }
- body{
-    height: 200vh;
- }
-.container{
-   height: 1em;
-   
-}
+
