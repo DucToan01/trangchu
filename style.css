@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+
+}
+.container{
+    background-color: bisque;
+    
+}
+.wrap{
+    text-align: center;
+    position: relative;
+}
+.background{
+    position: relative;
+    width: 50%;
+    
+    
+}
+.wrap p{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: white;
+    position: absolute;
+    
+    font-size: 24px;
+    
+    
+   
+}
+.wrap .artis{
+    top: 30%;
+    left:27.5%;
+}
+.wrap .exhibition{
+    top: 45%;
+    left:27.5%;
+}
