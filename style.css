@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 
-.container::after{
-    content: "";
-    display: block;
-    clear: both;
+body {
+
+    background-color: bisque;
 }
 .container{
-    background-color: bisque;
+    
     text-align: center;
     position: relative;
+    height: 100%;
     
     
 }
