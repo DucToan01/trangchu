@@ -6,7 +6,7 @@
 
 body {
 
-    background-color: black;
+    background-color: oldlace;
 }
 .container{
     
@@ -17,11 +17,14 @@ body {
     
 }
 
-.background{
+.background1{
     position: relative;
     width: 50%;
     
     
+}
+.background2{
+    display: none;
 }
 
 /* .wrap p{
