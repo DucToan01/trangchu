@@ -1,30 +1,120 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
+  overflow-x: hidden;
+  height: 130vh;
+  background-color: #5F4F43;
+}
+.container {
+   
+  width: 80%;
+  text-align: center;
+ 
+  display: block;
+  height: 100%;
+  margin: auto;
+}
+.banner {
+  text-align: center;
+  height: 650px;
+  padding-bottom: 100px;
+  
+}
+.banner__background{
+ 
+  display: block;
+  background-image: url(./img/remove.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  
+  height: 100%;
+  filter: brightness(50%); 
+}
+/* .banner__img {
+  width: 85%;
+  height: 80%;
+  filter: brightness(50%); 
+} */
 
-    background-color: oldlace;
+.content{
+ 
+  margin: auto;
+  width: 1060px;
+  height:1390px;
+  background-image: url(./img/tree1.jpg);
+  
 }
-.container{
-    
-    text-align: center;
-    position: relative;
-    height: 100%;
-    
-    
+.main{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
 
-.background1{
-    position: relative;
-    width: 50%;
-    
-    
+.nav_img:hover{
+  display: block;
+ }
+
+ 
+.btn1{
+  position: absolute;
+  display: block;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 320px ;
+  left: 20px;
+  animation: flicker 2s linear infinite ;
+
 }
-.background2{
-    display: none;
+.btn2{
+  position: absolute;
+  display: block;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 600px;
+  left: 20px;
+  animation: flicker 2s linear infinite ;
+
+  
+}
+
+.nav_img{
+  display: block;
+  
+}
+/* .btn1:hover .nav_img{
+  display: block;
+}
+.btn2:hover .nav_img{
+  display: block;
+} */
+
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff5e00a1;
+ width: 100vh;
+ margin: auto;
+  margin-bottom: 48px;
+  letter-spacing: 1rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+ 
+}
+.title__wrap{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* .wrap p{
@@ -46,3 +136,23 @@ body {
     top: 45%;
     left:27.5%;
 } */
+
+@keyframes flicker {
+
+  0% {
+  
+  opacity:0.1;
+  
+  
+  }
+  
+  
+  
+  100% {
+  
+  opacity:0.9;
+  
+ 
+  }
+  
+  }

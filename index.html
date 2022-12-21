@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./res.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
     <style>
-        img,
         video {
 
             position: fixed;
@@ -18,7 +22,14 @@
 
         }
 
-        .img,
+        .changeImg {
+            position: fixed;
+            bottom: 0vh;
+            right: 0vw;
+
+        }
+
+        .changeImg,
         .video2 {
             display: none;
         }
@@ -28,24 +39,52 @@
 <body>
 
     <body>
+        <div class="container" style="height: 100%;">
+            <div class="banner">
+                <div class="banner__background">
 
-        <div class="container" style="height: 100%;" >
+                </div>
+                <!-- <img src="./img/remove.png" alt="" class="banner__img"> -->
+            </div>
            
+                <h1 class="title">
+                    NOLA GALLERIA
+                </h1>
+         
+            <div class="content">
 
-                <img class="background1" src="./img/tree1.jpg" alt="">
-                <img class="background2" src="./img/16_9.jpg" alt="">
+                <div class="main">
 
-                <video class="video1" loop="true" muted loop="loop"  style="width: 10%; ">/*autoplay="autoplay"*/
-                    <source src="video/video.webm">
-                </video>
+                    <div class="btn1">
+                        <a href="https://www.facebook.com">
+                            <img class="nav_img" src="./img/artis.png" alt="">
+                        </a>
+                    </div>
+                    <div class="btn2">
+                        <a href="https://www.instagram.com/">
+                            <img class="nav_img" src="./img/exhibits.png" alt="">
+                        </a>
+                    </div>
+                </div>
 
-                <video class="video2" loop="true" muted loop="loop"  style="width: 10%;">/*autoplay="autoplay"*/
-                    <source src="video/video1.webm">
-                </video>
-                <img src="./video/giphy.gif" alt="" style="width: 10%;" class="img">
-            
+                <!-- <img class="background1" src="./img/tree1.jpg" alt=""> -->
+
+            </div>
+
+
+
+
+            <video class="video1" loop="true" muted loop="loop" style="width: 10%; ">/*autoplay="autoplay"*/
+                <source src="video/video.webm">
+            </video>
+
+            <video class="video2" loop="true" muted loop="loop" style="width: 10%;">/*autoplay="autoplay"*/
+                <source src="video/video1.webm">
+            </video>
+            <img src="./video/giphy.gif" alt="" style="width: 10%;" class="changeImg">
+
+            <div style="height: 100px;"></div>
         </div>
-
         <script src="./slide.js"></script>
     </body>
 
